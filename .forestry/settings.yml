@@ -10,7 +10,7 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_output_directory: foresttry:preview
+  preview_output_directory: forestry:preview
   install_dependencies_command: rm -rf node_modules && npm install && git commit package-lock.json
     && git push
   preview_docker_image: forestryio/node:12
