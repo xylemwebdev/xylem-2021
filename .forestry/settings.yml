@@ -13,7 +13,7 @@ build:
   preview_env:
   - HUGO_VERSION=0.68.0
   preview_output_directory: public
-  install_dependencies_command: bundle install && npm install
+  install_dependencies_command: gem install bundle && bundle install && npm install
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
